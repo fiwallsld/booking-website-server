@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "6503d32e3735ecc99b9bbaab"
+  },
+  "user": "abcd",
+  "hotel": {
+    "$oid": "6311a54a4a642f0142349086"
+  },
+  "room": [
+    "101"
+  ],
+  "dateStart": {
+    "$date": "2023-09-14T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-09-17T17:00:00.000Z"
+  },
+  "price": "800",
+  "payment": "Cash",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6510e8563d8b7135e046aecd"
+  },
+  "user": "abcd",
+  "hotel": {
+    "$oid": "6311a54a4a642f0142349086"
+  },
+  "room": [
+    "102"
+  ],
+  "dateStart": {
+    "$date": "2023-09-27T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-09-29T17:00:00.000Z"
+  },
+  "price": "600",
+  "payment": "Cash",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651135870f8e55834a1209e6"
+  },
+  "user": "abcd",
+  "hotel": {
+    "$oid": "6311a9c64a642f01423490bf"
+  },
+  "room": [
+    "202",
+    "203"
+  ],
+  "dateStart": {
+    "$date": "2023-09-30T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-10-09T17:00:00.000Z"
+  },
+  "price": "14000",
+  "payment": "Cash",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651781a7faf177142c9ddec8"
+  },
+  "user": "abcd",
+  "hotel": {
+    "$oid": "6514d11594283c4488a63b04"
+  },
+  "room": [
+    "202"
+  ],
+  "dateStart": {
+    "$date": "2023-10-09T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-10-14T17:00:00.000Z"
+  },
+  "price": "2550",
+  "payment": "CreditCard",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519c263231d31a0a728ee90"
+  },
+  "user": "abcd",
+  "hotel": {
+    "$oid": "6514d11594283c4488a63b04"
+  },
+  "room": [
+    "101"
+  ],
+  "dateStart": {
+    "$date": "2023-10-01T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-10-03T17:00:00.000Z"
+  },
+  "price": "900",
+  "payment": "Cash",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519c6c66e524f920e575a49"
+  },
+  "user": "abcd2",
+  "hotel": {
+    "$oid": "6311a54a4a642f0142349086"
+  },
+  "room": [
+    "102"
+  ],
+  "dateStart": {
+    "$date": "2023-10-19T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-10-20T17:00:00.000Z"
+  },
+  "price": "400",
+  "payment": "CreditCard",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519c6f838cbdb7e699a3882"
+  },
+  "user": "abcd2",
+  "hotel": {
+    "$oid": "6311bd07f2fce6ea18172fa3"
+  },
+  "room": [
+    "202"
+  ],
+  "dateStart": {
+    "$date": "2023-10-26T17:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2023-10-27T17:00:00.000Z"
+  },
+  "price": "850",
+  "payment": "Cash",
+  "status": "Checkin",
+  "__v": 0
+}]

@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "64f954961c8ffd12377af533"
+  },
+  "username": "abcd",
+  "password": "123456",
+  "fullName": "Hoang Thanh",
+  "phoneNumber": "0344430530",
+  "email": "abcd@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64fa0674f5c3225ba4db20aa"
+  },
+  "username": "abcd1",
+  "password": "1234567",
+  "fullName": "hoang thanh",
+  "phoneNumber": "0988491402",
+  "email": "abcd1@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651050e4c0b2ac1476bfa5a6"
+  },
+  "username": "admin",
+  "password": "123456",
+  "fullName": "My Admin",
+  "phoneNumber": "0988491402",
+  "email": "admin@gmail.com",
+  "isAdmin": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519ba9d9cee54a548fe2c16"
+  },
+  "username": "abcd2",
+  "password": "123456",
+  "fullName": "abcd2",
+  "phoneNumber": "0988491402",
+  "email": "abcd2@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519babd9cee54a548fe2c33"
+  },
+  "username": "abcd3",
+  "password": "123456",
+  "fullName": "abcd3",
+  "phoneNumber": "0988491402",
+  "email": "abcd3@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519bb359cee54a548fe2c38"
+  },
+  "username": "abcd4",
+  "password": "123456",
+  "fullName": "abcd4",
+  "phoneNumber": "0988491402",
+  "email": "abcd4@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519bbae9cee54a548fe2c4a"
+  },
+  "username": "abcd5",
+  "password": "123456",
+  "fullName": "abcd5",
+  "phoneNumber": "0988491402",
+  "email": "abcd5@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519bc029cee54a548fe2c51"
+  },
+  "username": "abcd6",
+  "password": "123456",
+  "fullName": "abcd6",
+  "phoneNumber": "0988491402",
+  "email": "abcd6@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519bc6a9cee54a548fe2c56"
+  },
+  "username": "abcd7",
+  "password": "123456",
+  "fullName": "abcd7",
+  "phoneNumber": "0988491402",
+  "email": "abcd7@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519bdce9cee54a548fe2c91"
+  },
+  "username": "abcd8",
+  "password": "123456",
+  "fullName": "hoang thanh",
+  "phoneNumber": "0988491402",
+  "email": "abcd8@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519be219cee54a548fe2c9a"
+  },
+  "username": "abcd9",
+  "password": "12345678",
+  "fullName": "hoang thanh",
+  "phoneNumber": "0988491402",
+  "email": "abcd9@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6519bf699cee54a548fe2cca"
+  },
+  "username": "abcde1",
+  "password": "123456",
+  "fullName": "hoang thanh",
+  "phoneNumber": "0988491402",
+  "email": "abcde1@gmail.com",
+  "isAdmin": false,
+  "__v": 0
+}]
