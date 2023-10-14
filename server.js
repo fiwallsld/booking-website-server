@@ -51,14 +51,16 @@ app.use("/admin", adminRouter);
 app.use(errorController.get404);
 
 //-------------ConnectDB-&-Run-App-----------//
+const port = process.env.PORT || 5000;
+
 mongoose
   .connect(
     `mongodb+srv://${process.env.USER_DB}:${process.env.PASS_DB}@cluster0.fxowvpt.mongodb.net/${process.env.COLLECTION}?retryWrites=true&w=majority`
   )
   // .connect("mongodb://0.0.0.0:27017/booking")
   .then((result) => {
-    app.listen(process.env.PORT || 5000, () => {
-      console.log("Server user running on port 5000");
+    app.listen(port, () => {
+      console.log(`Server user running on port ${port}`);
     });
   })
   .catch((err) => {
