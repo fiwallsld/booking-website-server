@@ -5,14 +5,14 @@ const app = express();
 const cors = require("cors");
 
 const corsUserOption = {
-  origin: "http://localhost:3000",
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type, Authorization",
   optionsSuccessStatus: 200,
   credentials: true,
 };
 const corsAdminOption = {
-  origin: "http://localhost:3001",
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type, Authorization",
   optionsSuccessStatus: 200,
