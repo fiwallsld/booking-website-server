@@ -53,11 +53,11 @@ app.use(errorController.get404);
 //-------------ConnectDB-&-Run-App-----------//
 mongoose
   .connect(
-    "mongodb+srv://booking-website:booking-website@cluster0.fxowvpt.mongodb.net/booking-website?retryWrites=true&w=majority"
+    `mongodb+srv://${process.env.USER_DB}:${process.env.PASS_DB}@cluster0.fxowvpt.mongodb.net/${process.env.COLLECTION}?retryWrites=true&w=majority`
   )
   // .connect("mongodb://0.0.0.0:27017/booking")
   .then((result) => {
-    app.listen(5000, () => {
+    app.listen(process.env.PORT || 5000, () => {
       console.log("Server user running on port 5000");
     });
   })
